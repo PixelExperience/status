@@ -8,6 +8,10 @@ Development:
     Gerrit: operational
     Gitlab: operational
     Release CP: operational
+Personal:
+  group-status: partial
+  sites:
+    Files: partial
 Websites:
   group-status: operational
   sites:
@@ -16,5 +20,5 @@ Websites:
     Jenkins: operational
     Webmail: operational
     Wiki: operational
-statement: All systems are operational
-status-class: no-issues
+statement: We are suffering a partial outage
+status-class: partial
