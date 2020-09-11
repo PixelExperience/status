@@ -1,0 +1,20 @@
+Build Servers:
+  group-status: operational
+  sites:
+    srv4: operational
+Development:
+  group-status: operational
+  sites:
+    Gerrit: operational
+    Gitlab: operational
+    Release CP: operational
+Websites:
+  group-status: operational
+  sites:
+    Blog: operational
+    Download Portal: operational
+    Jenkins: operational
+    Webmail: operational
+    Wiki: operational
+statement: All systems are operational
+status-class: no-issues

@@ -1,0 +1,24 @@
+- group: Websites
+  sites:
+  - name: Download Portal
+    url: https://download.pixelexperience.org/
+  - name: Wiki
+    url: https://wiki.pixelexperience.org/
+  - name: Jenkins
+    url: https://jenkins.pixelexperience.org/
+  - name: Blog
+    url: https://blog.pixelexperience.org/
+  - name: Webmail
+    url: https://webmail.pixelexperience.org/
+- group: Development
+  sites:
+  - name: Gerrit
+    url: https://gerrit.pixelexperience.org/
+  - name: Gitlab
+    url: https://gitlab.pixelexperience.org/explore/groups
+  - name: Release CP
+    url: https://cp.pixelexperience.org/login
+- group: Build Servers
+  sites:
+  - name: srv4
+    url: http://srv4.jhen09.com/status.json
