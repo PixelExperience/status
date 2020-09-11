@@ -25,8 +25,9 @@ for group in tracker:
         if c.status_code >= 200 and c.status_code < 300:
             nstatus[gname]['sites'][sname]='operational'
         else:
+            ostatus[gname] = {} if gname not in ostatus else ostatus[gname]
+            ostatus[gname]['sites'] = {} if 'sites' not in ostatus[gname] else ostatus[gname]['sites']
             if sname in ostatus[gname]['sites']:
-                ostatus[gname]['sites'] = {} if gname not in ostatus else ostatus[gname]['sites']
                 if ostatus[gname]['sites'][sname] == 'operational':
                     nstatus[gname]['sites'][sname]='partial'
                     issues.append(sname)
