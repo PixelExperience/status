@@ -26,6 +26,7 @@ for group in tracker:
             nstatus[gname]['sites'][sname]='operational'
         else:
             if sname in ostatus[gname]['sites']:
+                ostatus[gname]['sites'] = {} if gname not in ostatus else ostatus[gname]['sites']
                 if ostatus[gname]['sites'][sname] == 'operational':
                     nstatus[gname]['sites'][sname]='partial'
                     issues.append(sname)
