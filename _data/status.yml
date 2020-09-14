@@ -9,9 +9,9 @@ Development:
     Gitlab: operational
     Release CP: operational
 Personal:
-  group-status: major
+  group-status: operational
   sites:
-    Drone Personal: major
+    Drone Personal: operational
 Websites:
   group-status: operational
   sites:
@@ -20,5 +20,5 @@ Websites:
     Jenkins: operational
     Webmail: operational
     Wiki: operational
-statement: We are suffering a major outage
-status-class: critical
+statement: All systems are operational
+status-class: no-issues
