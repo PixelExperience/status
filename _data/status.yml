@@ -13,12 +13,12 @@ Personal:
   sites:
     Drone Personal: operational
 Websites:
-  group-status: operational
+  group-status: partial
   sites:
     Blog: operational
-    Download Portal: operational
+    Download Portal: partial
     Jenkins: operational
     Webmail: operational
     Wiki: operational
-statement: All systems are operational
-status-class: no-issues
+statement: We are suffering a partial outage
+status-class: partial
