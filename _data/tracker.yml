@@ -22,7 +22,3 @@
   sites:
   - name: srv4
     url: http://srv4.jhen09.com/status.json
-- group: Personal
-  sites:
-  - name: Drone Personal
-    url: https://ci.shreejoy.tech/
