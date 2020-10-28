@@ -1,7 +1,9 @@
 Build Servers:
   group-status: operational
   sites:
-    srv4: operational
+    Build Server 1: operational
+    Build Server 2: operational
+    Mirroring Server: operational
 Development:
   group-status: operational
   sites:
