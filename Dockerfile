@@ -1,9 +1,7 @@
-FROM python:alpine
+FROM python:3.8.6-buster
 
 RUN mkdir /app
-RUN apk update && apk add bash
-COPY  . /app
 WORKDIR /app
-RUN pip install pyyaml requests pygithub
+RUN pip install pyyaml requests python-telegram-bot
 
 CMD ["bash", "entrypoint.sh"]

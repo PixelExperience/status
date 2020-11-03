@@ -17,9 +17,11 @@ jobs:
       env:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
+        TELEGRAM_CHAT_ID: "-1001463677498"
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
       run: |
         docker build -t tracker:latest .
-        docker run -v ${{ github.workspace }}:/app -e USERNAME=$USERNAME -e PASSWORD=$PASSWORD -e GITHUB_REPOSITORY=$GITHUB_REPOSITORY tracker:latest
+        docker run -v ${{ github.workspace }}:/app -e USERNAME=$USERNAME -e PASSWORD=$PASSWORD -e GITHUB_REPOSITORY=$GITHUB_REPOSITORY -e TELEGRAM_CHAT_ID=$TELEGRAM_CHAT_ID -e TELEGRAM_TOKEN=$TELEGRAM_TOKEN tracker:latest
         git config --global user.email "github@pixelexperience.org"
         git config --global user.name "PixelExperience"
         git add .

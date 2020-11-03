@@ -2,3 +2,5 @@ __pycache__
 *.jekyll*
 *.pyc
 _site
+_data/restored.yml
+_data/issues.yml
