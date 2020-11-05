@@ -5,16 +5,16 @@ Build Servers:
     Build Server 2: operational
     Mirroring Server: operational
 Development:
-  group-status: operational
+  group-status: partial
   sites:
     Gerrit: operational
     Gitlab: operational
-    Release CP: operational
+    Release CP: partial
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
     Blog: operational
-    Download Portal: partial
+    Download Portal: operational
     Webmail: operational
     Wiki: operational
 statement: We are suffering a partial outage
