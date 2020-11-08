@@ -5,11 +5,11 @@ Build Servers:
     Build Server 2: operational
     Mirroring Server: operational
 Development:
-  group-status: partial
+  group-status: operational
   sites:
     Gerrit: operational
-    Gitlab: partial
-    Release CP: partial
+    Gitlab: operational
+    Release CP: operational
 Websites:
   group-status: major
   sites:
