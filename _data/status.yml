@@ -13,8 +13,8 @@ Development:
 Websites:
   group-status: partial
   sites:
-    Blog: operational
-    Download Portal: partial
+    Blog: partial
+    Download Portal: operational
     Webmail: operational
     Wiki: operational
 statement: We are suffering a partial outage
