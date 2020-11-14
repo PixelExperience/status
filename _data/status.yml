@@ -14,8 +14,8 @@ Websites:
   group-status: major
   sites:
     Blog: major
-    Download Portal: operational
-    Webmail: operational
+    Download Portal: partial
+    Webmail: partial
     Wiki: operational
 statement: We are suffering a major outage
 status-class: critical
