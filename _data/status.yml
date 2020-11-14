@@ -9,12 +9,12 @@ Development:
   sites:
     Gerrit: operational
     Gitlab: major
-    Release CP: partial
+    Release CP: operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
     Blog: operational
-    Download Portal: partial
+    Download Portal: operational
     Webmail: operational
     Wiki: operational
 statement: We are suffering a major outage
