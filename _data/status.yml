@@ -11,11 +11,11 @@ Development:
     Gitlab: operational
     Release CP: major
 Websites:
-  group-status: partial
+  group-status: major
   sites:
-    Blog: partial
-    Download Portal: partial
-    Webmail: operational
+    Blog: major
+    Download Portal: major
+    Webmail: partial
     Wiki: operational
 statement: We are suffering a major outage
 status-class: critical
