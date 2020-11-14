@@ -9,13 +9,13 @@ Development:
   sites:
     Gerrit: major
     Gitlab: major
-    Release CP: major
+    Release CP: operational
 Websites:
-  group-status: major
+  group-status: operational
   sites:
     Blog: operational
     Download Portal: operational
-    Webmail: major
+    Webmail: operational
     Wiki: operational
 statement: We are suffering a major outage
 status-class: critical
