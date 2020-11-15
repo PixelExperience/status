@@ -5,9 +5,9 @@ Build Servers:
     Build Server 2: operational
     Mirroring Server: operational
 Development:
-  group-status: major
+  group-status: operational
   sites:
-    Gerrit: major
+    Gerrit: operational
     Gitlab: operational
     Release CP: operational
 Websites:
@@ -17,5 +17,5 @@ Websites:
     Download Portal: operational
     Webmail: operational
     Wiki: operational
-statement: We are suffering a major outage
-status-class: critical
+statement: All systems are operational
+status-class: no-issues
