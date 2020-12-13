@@ -5,9 +5,9 @@ Build Servers:
     Build Server 2: operational
     Mirroring Server: operational
 Development:
-  group-status: operational
+  group-status: partial
   sites:
-    Gerrit: operational
+    Gerrit: partial
     Gitlab: operational
     Release CP: operational
 Websites:
@@ -17,5 +17,5 @@ Websites:
     Download Portal: operational
     Webmail: operational
     Wiki: operational
-statement: All systems are operational
-status-class: no-issues
+statement: We are suffering a partial outage
+status-class: partial
