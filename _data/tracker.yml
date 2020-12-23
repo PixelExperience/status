@@ -23,4 +23,4 @@
   - name: Build Server 2
     url: http://buildserver-02.pixelexperience.org/status.json
   - name: Mirroring Server
-    url: http://srv-windows.pixelexperience.org/status.json
+    url: http://mirroring.pixelexperience.org/status.json
