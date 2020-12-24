@@ -3,7 +3,7 @@ Build Servers:
   sites:
     Build Server 1: operational
     Build Server 2: operational
-    Mirroring Server: operational
+    Mirror Server 1 (Missouri/US): operational
 Development:
   group-status: operational
   sites:
