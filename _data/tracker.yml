@@ -22,5 +22,5 @@
     url: http://buildserver-01.pixelexperience.org/status.json
   - name: Build Server 2
     url: http://buildserver-02.pixelexperience.org/status.json
-  - name: Mirroring Server
-    url: http://mirroring.pixelexperience.org/status.json
+  - name: Mirror Server 1 (Missouri/US)
+    url: http://mirror-01.pixelexperience.org/status.json
