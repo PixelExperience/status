@@ -4,21 +4,21 @@ Build Servers:
     Build Server 1: operational
     Build Server 2: operational
 Development:
-  group-status: partial
+  group-status: operational
   sites:
     Gerrit: operational
     Gitlab: operational
-    Release CP: partial
+    Release CP: operational
 Mirrors:
   group-status: operational
   sites:
     Mirror Server 1 (Ashburn/US): operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
-    Blog: partial
-    Download Portal: partial
-    Webmail: partial
+    Blog: operational
+    Download Portal: operational
+    Webmail: operational
     Wiki: operational
-statement: We are suffering a partial outage
-status-class: partial
+statement: All systems are operational
+status-class: no-issues
