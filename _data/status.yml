@@ -4,11 +4,11 @@ Build Servers:
     Build Server 1: operational
     Build Server 2: operational
 Development:
-  group-status: major
+  group-status: operational
   sites:
     Gerrit: operational
     Gitlab: operational
-    Release CP: major
+    Release CP: operational
 Mirrors:
   group-status: operational
   sites:
@@ -17,7 +17,7 @@ Websites:
   group-status: major
   sites:
     Blog: major
-    Download Portal: operational
+    Download Portal: partial
     Webmail: major
     Wiki: operational
 statement: We are suffering a major outage
