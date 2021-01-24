@@ -6,7 +6,7 @@ Build Servers:
 Development:
   group-status: major
   sites:
-    Gerrit: major
+    Gerrit: operational
     Gitlab: operational
     Release CP: major
 Mirrors:
@@ -17,7 +17,7 @@ Websites:
   group-status: major
   sites:
     Blog: major
-    Download Portal: major
+    Download Portal: operational
     Webmail: major
     Wiki: operational
 statement: We are suffering a major outage
