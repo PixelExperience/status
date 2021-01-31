@@ -14,10 +14,10 @@ Mirrors:
   sites:
     Mirror Server 1 (Ashburn/US): operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
-    Blog: partial
-    Download Portal: partial
+    Blog: operational
+    Download Portal: operational
     Webmail: operational
     Wiki: operational
 statement: We are suffering a major outage
