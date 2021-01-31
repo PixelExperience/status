@@ -8,7 +8,7 @@ Development:
   sites:
     Gerrit: major
     Gitlab: major
-    Release CP: operational
+    Release CP: partial
 Mirrors:
   group-status: operational
   sites:
