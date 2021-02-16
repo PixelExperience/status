@@ -14,11 +14,11 @@ Mirrors:
   sites:
     Mirror Server 1 (Ashburn/US): operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
     Blog: operational
     Download Portal: operational
-    Webmail: partial
+    Webmail: operational
     Wiki: operational
-statement: We are suffering a partial outage
-status-class: partial
+statement: All systems are operational
+status-class: no-issues
