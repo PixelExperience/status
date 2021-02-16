@@ -1,4 +1,4 @@
-import yaml, os, sys
+import yaml, os, sys, time
 from requests import head
 
 issues = []
@@ -6,11 +6,22 @@ restored = []
 nstatus = {}
 
 
-def get_status_code(url):
-    try:
-        return head(url)
-    except:
-        return False
+def is_up(url):
+    retries = 0
+    max_retries = 3
+    while retries < max_retries:
+        try:
+            response = head(url)
+            if response:
+                status_code = response.status_code
+                print("Status code: " + str(status_code))
+                if status_code >= 200 and status_code < 300:
+                    return True
+        except Exception as e:
+            print(e)
+        retries += 1
+        time.sleep(5)
+    return False
 
 
 try:
@@ -32,8 +43,7 @@ for group in tracker:
     for site in group["sites"]:
         sname = site["name"]
         print("Checking: " + sname)
-        c = get_status_code(site["url"])
-        if c and c.status_code >= 200 and c.status_code < 300:
+        if is_up(site["url"]):
             is_restored = (
                 gname in ostatus
                 and sname in ostatus[gname]["sites"]
