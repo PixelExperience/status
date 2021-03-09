@@ -10,9 +10,9 @@ Development:
     Gitlab: operational
     Release CP: operational
 Mirrors:
-  group-status: partial
+  group-status: operational
   sites:
-    Mirror Server 1 (Ashburn/US): partial
+    Mirror Server 1 (Ashburn/US): operational
 Websites:
   group-status: operational
   sites:
@@ -20,5 +20,5 @@ Websites:
     Download Portal: operational
     Webmail: operational
     Wiki: operational
-statement: We are suffering a partial outage
-status-class: partial
+statement: All systems are operational
+status-class: no-issues
