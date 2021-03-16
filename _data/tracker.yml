@@ -15,7 +15,7 @@
   - name: Gitlab
     url: https://gitlab.pixelexperience.org/explore/groups
   - name: Release CP
-    url: https://cp.pixelexperience.org/status.json
+    url: https://cp.pixelexperience.org
 - group: Build Servers
   sites:
   - name: Build Server 1
