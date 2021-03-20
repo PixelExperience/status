@@ -17,7 +17,7 @@ jobs:
       env:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
-        TELEGRAM_CHAT_ID: "-1001463677498"
+        TELEGRAM_CHAT_ID: "-1001463677498;-1001287849567"
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
       run: |
         docker build -t tracker:latest .

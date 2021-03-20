@@ -1,6 +1,11 @@
 import os, yaml, telegram, sys
 
 
+def send_tg_message(text):
+    tg_bot = telegram.Bot(os.getenv("TELEGRAM_TOKEN"))
+    for chat_id in os.getenv("TELEGRAM_CHAT_ID").split(";"):
+        tg_bot.send_message(chat_id, text, "HTML")
+
 def report_issue():
     text = (
         "<b>Service outage detected!</b>\n\n"
@@ -9,11 +14,7 @@ def report_issue():
         )
     )
     print("Service outage detected: " + ", ".join(issues))
-
-    tg_bot = telegram.Bot(os.getenv("TELEGRAM_TOKEN"))
-    chat_id = os.getenv("TELEGRAM_CHAT_ID")
-
-    tg_bot.send_message(chat_id, text, "HTML")
+    send_tg_message(text)
 
 
 def report_restored():
@@ -33,11 +34,7 @@ def report_restored():
             )
         )
         print("Services restored: " + ", ".join(restored_services))
-
-    tg_bot = telegram.Bot(os.getenv("TELEGRAM_TOKEN"))
-    chat_id = os.getenv("TELEGRAM_CHAT_ID")
-
-    tg_bot.send_message(chat_id, text, "HTML")
+    send_tg_message(text)
 
 
 with open("_data/issues.yml") as f:
