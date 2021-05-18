@@ -4,9 +4,9 @@ Build Servers:
     Build Server 1: operational
     Build Server 2: operational
 Development:
-  group-status: partial
+  group-status: major
   sites:
-    Gerrit: partial
+    Gerrit: major
     Gitlab: operational
     Release CP: operational
 Mirrors:
@@ -20,5 +20,5 @@ Websites:
     Download Portal: operational
     Webmail: operational
     Wiki: operational
-statement: We are suffering a partial outage
-status-class: partial
+statement: We are suffering a major outage
+status-class: critical
