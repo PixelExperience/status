@@ -20,9 +20,3 @@
   sites:
   - name: Build Server 1
     url: http://buildserver-01.pixelexperience.org/status.json
-  - name: Build Server 2
-    url: http://buildserver-02.pixelexperience.org/status.json
-- group: Mirrors
-  sites:
-  - name: Mirror Server 1 (Ashburn/US)
-    url: http://mirror-01.pixelexperience.org/status.json
