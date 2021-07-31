@@ -12,7 +12,7 @@ Websites:
   group-status: major
   sites:
     Blog: major
-    Download Portal: operational
+    Download Portal: partial
     Webmail: major
     Wiki: operational
 statement: We are suffering a major outage
