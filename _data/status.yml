@@ -5,15 +5,15 @@ Build Servers:
 Development:
   group-status: major
   sites:
-    Gerrit: partial
+    Gerrit: major
     Gitlab: major
-    Release CP: partial
+    Release CP: major
 Websites:
-  group-status: partial
+  group-status: major
   sites:
-    Blog: partial
+    Blog: major
     Download Portal: operational
-    Webmail: partial
+    Webmail: major
     Wiki: operational
 statement: We are suffering a major outage
 status-class: critical
