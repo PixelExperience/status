@@ -1,7 +1,8 @@
 Build Servers:
-  group-status: major
+  group-status: operational
   sites:
-    Build Server 1: major
+    Build Server 1: operational
+    Build Server 2: operational
 Development:
   group-status: operational
   sites:
@@ -15,5 +16,5 @@ Websites:
     Download Portal: operational
     Webmail: operational
     Wiki: operational
-statement: We are suffering a major outage
-status-class: critical
+statement: All systems are operational
+status-class: no-issues
