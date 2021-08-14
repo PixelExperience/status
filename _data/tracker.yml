@@ -18,7 +18,5 @@
     url: https://cp.pixelexperience.org
 - group: Build Servers
   sites:
-  - name: Build Server 1
-    url: http://buildserver-01.pixelexperience.org/status.json
-  - name: Build Server 2
-    url: http://buildserver-02.pixelexperience.org/status.json
+  - name: Build Server (Maceió, Brazil)
+    url: http://buildserver-mcz.pixelexperience.org/status.json
