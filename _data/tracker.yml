@@ -19,4 +19,4 @@
 - group: Build Servers
   sites:
   - name: Build Server 1 (Maceió, Brazil)
-    url: http://buildserver-mcz.pixelexperience.org/status.json
+    url: http://buildserver-mcz.pixelexperience.org:8085/status.json
