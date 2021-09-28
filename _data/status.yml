@@ -3,17 +3,17 @@ Build Servers:
   sites:
     "Build Server 1 (Macei\xF3, Brazil)": operational
 Development:
-  group-status: major
+  group-status: operational
   sites:
     Gerrit: operational
     Gitlab: operational
-    Release CP: major
+    Release CP: operational
 Websites:
-  group-status: major
+  group-status: operational
   sites:
-    Blog: major
-    Download Portal: major
-    Webmail: major
+    Blog: operational
+    Download Portal: operational
+    Webmail: operational
     Wiki: operational
-statement: We are suffering a major outage
-status-class: critical
+statement: All systems are operational
+status-class: no-issues
