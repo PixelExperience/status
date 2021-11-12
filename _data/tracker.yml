@@ -20,3 +20,7 @@
   sites:
   - name: Build Server 1 (Maceió, Brazil)
     url: http://buildserver-mcz.pixelexperience.org:8085/status.json
+- group: Misc Services
+  sites:
+  - name: Mirroring (João Pessoa, Brazil)
+    url: http://srv-jpa.pixelexperience.org/status.json
