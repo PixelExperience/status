@@ -3,9 +3,9 @@ Build Servers:
   sites:
     "Build Server 1 (Macei\xF3, Brazil)": operational
 Development:
-  group-status: operational
+  group-status: partial
   sites:
-    Gerrit: operational
+    Gerrit: partial
     Gitlab: operational
     Release CP: operational
 Misc Services:
@@ -13,11 +13,11 @@ Misc Services:
   sites:
     "Mirroring (Jo\xE3o Pessoa, Brazil)": operational
 Websites:
-  group-status: operational
+  group-status: partial
   sites:
-    Blog: operational
+    Blog: partial
     Download Portal: operational
-    Webmail: operational
+    Webmail: partial
     Wiki: operational
-statement: All systems are operational
-status-class: no-issues
+statement: We are suffering a partial outage
+status-class: partial
