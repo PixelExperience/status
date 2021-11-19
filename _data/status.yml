@@ -5,7 +5,7 @@ Build Servers:
 Development:
   group-status: major
   sites:
-    Gerrit: partial
+    Gerrit: operational
     Gitlab: operational
     Release CP: major
 Websites:
