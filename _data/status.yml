@@ -1,7 +1,7 @@
 Build Servers:
-  group-status: partial
+  group-status: major
   sites:
-    "Build Server 1 (Macei\xF3, Brazil)": partial
+    "Build Server 1 (Macei\xF3, Brazil)": major
 Development:
   group-status: major
   sites:
