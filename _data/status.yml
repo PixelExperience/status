@@ -1,7 +1,8 @@
 Build Servers:
   group-status: operational
   sites:
-    "Build Server 1 (Macei\xF3, Brazil)": operational
+    Build Server 1 (Brazil): operational
+    Build Server 2 (USA): operational
 Development:
   group-status: major
   sites:
