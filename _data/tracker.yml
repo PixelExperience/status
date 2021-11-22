@@ -1,13 +1,13 @@
 - group: Websites
   sites:
   - name: Download Portal
-    url: https://download.pixelexperience.org
+    url: https://download.pixelexperience.org/status.json
   - name: Wiki
     url: https://wiki.pixelexperience.org
   - name: Blog
-    url: https://blog.pixelexperience.org
+    url: https://blog.pixelexperience.org/status.json
   - name: Webmail
-    url: https://webmail.pixelexperience.org
+    url: https://webmail.pixelexperience.org/status.json
 - group: Development
   sites:
   - name: Gerrit
@@ -15,7 +15,7 @@
   - name: Gitlab
     url: https://gitlab.pixelexperience.org/explore/groups
   - name: Release CP
-    url: https://cp.pixelexperience.org
+    url: https://cp.pixelexperience.org/status.json
 - group: Build Servers
   sites:
   - name: Build Server 1 (Brazil)
