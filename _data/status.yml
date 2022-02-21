@@ -6,8 +6,8 @@ Build Servers:
 Development:
   group-status: partial
   sites:
-    Gerrit: partial
-    Gitlab: operational
+    Gerrit: operational
+    Gitlab: partial
     Release CP: operational
 Websites:
   group-status: operational
