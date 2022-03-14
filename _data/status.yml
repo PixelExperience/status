@@ -3,17 +3,17 @@ Build Servers:
   sites:
     Build Server 1 (Brazil): major
 Development:
-  group-status: partial
+  group-status: operational
   sites:
-    Gerrit: partial
-    Gitlab: partial
-    Release CP: partial
+    Gerrit: operational
+    Gitlab: operational
+    Release CP: operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
-    Blog: partial
-    Download Portal: partial
-    Webmail: partial
+    Blog: operational
+    Download Portal: operational
+    Webmail: operational
     Wiki: operational
 statement: We are suffering a major outage
 status-class: critical
