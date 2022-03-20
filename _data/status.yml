@@ -9,10 +9,10 @@ Development:
     Gitlab: operational
     Release CP: operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
     Blog: operational
-    Download Portal: partial
+    Download Portal: operational
     Webmail: operational
     Wiki: operational
 statement: We are suffering a major outage
