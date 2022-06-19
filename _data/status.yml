@@ -3,11 +3,11 @@ Build Servers:
   sites:
     Build Server 1 (Brazil): operational
 Development:
-  group-status: operational
+  group-status: partial
   sites:
     Gerrit: operational
     Gitlab: operational
-    Release CP: operational
+    Release CP: partial
 Websites:
   group-status: major
   sites:
