@@ -12,11 +12,10 @@ def is_up(url):
     while retries < max_retries:
         try:
             response = head(url)
-            if response:
-                status_code = response.status_code
-                print("Status code: " + str(status_code))
-                if status_code == 200 or status_code == 302 or status_code == 301:
-                    return True
+            status_code = response.status_code
+            print("Status code: " + str(status_code))
+            if status_code == 200 or status_code == 302 or status_code == 301:
+                return True
         except Exception as e:
             print(e)
         retries += 1
