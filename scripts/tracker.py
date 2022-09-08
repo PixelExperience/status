@@ -77,8 +77,9 @@ for status in nstatus:
 
 header = []
 for status in nstatus:
-    s = nstatus[status]["group-status"]
-    header.append(s)
+    if "Build Server" not in status:
+        s = nstatus[status]["group-status"]
+        header.append(s)
 
 if "major" in header:
     nstatus["statement"] = "We are suffering a major outage"
