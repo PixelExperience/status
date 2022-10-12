@@ -18,5 +18,5 @@
     url: https://cp.pixelexperience.org/status.json
 - group: Build Servers
   sites:
-  - name: Build Server 1 (Brazil)
-    url: http://buildserver-mcz.pixelexperience.org:8085/status.json
+  - name: Build Server 01
+    url: http://buildserver-01.pixelexperience.org/status.json
