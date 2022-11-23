@@ -20,7 +20,3 @@
   sites:
   - name: Build Server 01
     url: https://download.pixelexperience.org/status.json
-  - name: Build Server 02
-    url: http://buildserver-02.pixelexperience.org/status.json
-  - name: Build Server 03
-    url: http://buildserver-03.pixelexperience.org/status.json
