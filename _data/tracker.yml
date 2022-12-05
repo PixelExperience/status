@@ -2,6 +2,8 @@
   sites:
   - name: Download Portal
     url: https://download.pixelexperience.org/status.json
+  - name: API
+    url: https://api.pixelexperience.org/status
   - name: Wiki
     url: https://wiki.pixelexperience.org
   - name: Blog
