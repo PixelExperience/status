@@ -8,7 +8,7 @@ nstatus = {}
 
 def is_up(url):
     retries = 0
-    max_retries = 3
+    max_retries = 10
     while retries < max_retries:
         try:
             response = head(url)
@@ -19,7 +19,7 @@ def is_up(url):
         except Exception as e:
             print(e)
         retries += 1
-        time.sleep(5)
+        time.sleep(10)
     return False
 
 
