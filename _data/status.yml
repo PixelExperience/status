@@ -1,7 +1,7 @@
 Build Servers:
-  group-status: major
+  group-status: operational
   sites:
-    Build Server 01: major
+    Build Server 01: operational
 Development:
   group-status: major
   sites:
