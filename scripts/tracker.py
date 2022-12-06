@@ -19,7 +19,7 @@ def is_up(url):
         except Exception as e:
             print(e)
         retries += 1
-        time.sleep(10)
+        time.sleep(5)
     return False
 
 
