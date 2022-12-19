@@ -1,7 +1,7 @@
 Build Servers:
-  group-status: partial
+  group-status: operational
   sites:
-    Build Server 01: partial
+    Build Server 01: operational
 Development:
   group-status: operational
   sites:
@@ -9,11 +9,11 @@ Development:
     Gitlab: operational
     Release CP: operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
     API: operational
     Blog: operational
-    Download Portal: partial
+    Download Portal: operational
     Wiki: operational
-statement: We are suffering a partial outage
-status-class: partial
+statement: All systems are operational
+status-class: no-issues
