@@ -1,7 +1,8 @@
 Build Servers:
-  group-status: operational
+  group-status: partial
   sites:
     Build Server 01: operational
+    Build Server 02: partial
 Development:
   group-status: operational
   sites:
