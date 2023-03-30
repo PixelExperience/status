@@ -1,7 +1,7 @@
 - group: Websites
   sites:
   - name: Download Portal
-    url: https://download.pixelexperience.org/status.json
+    url: https://get.pixelexperience.org/status.json
   - name: API
     url: https://api.pixelexperience.org/status
   - name: Wiki
@@ -19,6 +19,6 @@
 - group: Build Servers
   sites:
   - name: Build Server 01
-    url: https://download.pixelexperience.org/status.json
+    url: https://get.pixelexperience.org/status.json
   - name: Build Server 02
     url: https://buildserver-02.pixelexperience.org/status.json
