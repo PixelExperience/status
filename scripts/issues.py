@@ -1,10 +1,10 @@
-import os, yaml, telegram, sys
+import os, yaml, telegram, sys, asyncio
 
 
-def send_tg_message(text):
+async def send_tg_message(text):
     tg_bot = telegram.Bot(os.getenv("TELEGRAM_TOKEN"))
     for chat_id in os.getenv("TELEGRAM_CHAT_ID").split(";"):
-        tg_bot.send_message(chat_id, text, "HTML")
+        await tg_bot.send_message(chat_id, text, "HTML")
 
 def report_issue():
     text = (
@@ -14,7 +14,7 @@ def report_issue():
         )
     )
     print("Service outage detected: " + ", ".join(issues))
-    send_tg_message(text)
+    asyncio.run(send_tg_message(text))
 
 
 def report_restored():
@@ -34,7 +34,7 @@ def report_restored():
             )
         )
         print("Services restored: " + ", ".join(restored_services))
-    send_tg_message(text)
+    asyncio.run(send_tg_message(text))
 
 
 with open("_data/issues.yml") as f:
