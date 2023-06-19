@@ -21,4 +21,4 @@
   - name: Build Server 01
     url: https://get.pixelexperience.org/status.json
   - name: Build Server 02
-    url: https://buildserver-02.pixelexperience.org/status.json
+    url: http://buildserver-02.pixelexperience.org/status.json
