@@ -7,7 +7,7 @@ Development:
   group-status: major
   sites:
     Gerrit: major
-    Gitlab: operational
+    Gitlab: partial
     Release CP: major
 Websites:
   group-status: operational
