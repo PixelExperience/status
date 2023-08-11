@@ -1,10 +1,10 @@
 Build Servers:
-  group-status: partial
+  group-status: operational
   sites:
     Build Server 01: operational
     Build Server 02: operational
-    Build Server 03: partial
-    Build Server 04: partial
+    Build Server 03: operational
+    Build Server 04: operational
 Development:
   group-status: operational
   sites:
