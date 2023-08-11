@@ -1,20 +1,20 @@
 Build Servers:
   group-status: major
   sites:
-    Build Server 01: partial
+    Build Server 01: major
     Build Server 02: major
 Development:
   group-status: major
   sites:
     Gerrit: major
-    Gitlab: major
+    Gitlab: operational
     Release CP: major
 Websites:
-  group-status: partial
+  group-status: major
   sites:
-    API: partial
+    API: major
     Blog: operational
-    Download Portal: partial
+    Download Portal: major
     Wiki: operational
 statement: We are suffering a major outage
 status-class: critical
