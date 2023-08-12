@@ -1,20 +1,20 @@
 Build Servers:
-  group-status: operational
+  group-status: partial
   sites:
-    Build Server 01: operational
+    Build Server 01: partial
     Build Server 02: operational
 Development:
-  group-status: operational
+  group-status: partial
   sites:
-    Gerrit: operational
-    Gitlab: operational
-    Release CP: operational
+    Gerrit: partial
+    Gitlab: partial
+    Release CP: partial
 Websites:
-  group-status: operational
+  group-status: partial
   sites:
-    API: operational
+    API: partial
     Blog: operational
-    Download Portal: operational
+    Download Portal: partial
     Wiki: operational
-statement: All systems are operational
-status-class: no-issues
+statement: We are suffering a partial outage
+status-class: partial
