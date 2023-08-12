@@ -3,8 +3,6 @@ Build Servers:
   sites:
     Build Server 01: operational
     Build Server 02: operational
-    Build Server 03: operational
-    Build Server 04: operational
 Development:
   group-status: operational
   sites:
