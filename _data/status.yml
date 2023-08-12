@@ -4,17 +4,17 @@ Build Servers:
     Build Server 01: operational
     Build Server 02: operational
 Development:
-  group-status: major
+  group-status: operational
   sites:
-    Gerrit: major
+    Gerrit: operational
     Gitlab: operational
     Release CP: operational
 Websites:
-  group-status: major
+  group-status: operational
   sites:
-    API: major
+    API: operational
     Blog: operational
-    Download Portal: major
+    Download Portal: operational
     Wiki: operational
-statement: We are suffering a major outage
-status-class: critical
+statement: All systems are operational
+status-class: no-issues
