@@ -20,5 +20,3 @@
   sites:
   - name: Build Server 01
     url: https://get.pixelexperience.org/status.json
-  - name: Build Server 02
-    url: http://95.216.34.104/status.json
