@@ -3,9 +3,9 @@ Build Servers:
   sites:
     Build Server 01: operational
 Development:
-  group-status: operational
+  group-status: partial
   sites:
-    Gerrit: operational
+    Gerrit: partial
     Gitlab: operational
     Release CP: operational
 Websites:
