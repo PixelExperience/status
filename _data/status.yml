@@ -11,9 +11,9 @@ Development:
 Websites:
   group-status: major
   sites:
-    API: partial
+    API: major
     Blog: major
-    Download Portal: partial
+    Download Portal: major
     Wiki: operational
 statement: We are suffering a major outage
 status-class: critical
