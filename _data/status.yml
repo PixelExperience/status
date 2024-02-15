@@ -9,11 +9,11 @@ Development:
     Gitlab: operational
     Release CP: operational
 Websites:
-  group-status: major
+  group-status: operational
   sites:
     API: operational
-    Blog: major
+    Blog: operational
     Download Portal: operational
     Wiki: operational
-statement: We are suffering a major outage
+statement: Some services are unavailable
 status-class: critical
