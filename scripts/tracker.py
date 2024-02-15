@@ -81,12 +81,9 @@ for status in nstatus:
         s = nstatus[status]["group-status"]
         header.append(s)
 
-if "major" in header:
-    nstatus["statement"] = "We are suffering a major outage"
+if "major" in header or ("major" not in header and "partial" in header):
+    nstatus["statement"] = "Some services are unavailable"
     nstatus["status-class"] = "critical"
-elif "major" not in header and "partial" in header:
-    nstatus["statement"] = "We are suffering a partial outage"
-    nstatus["status-class"] = "partial"
 elif "major" not in header and "partial" not in header and "operational" in header:
     nstatus["statement"] = "All systems are operational"
     nstatus["status-class"] = "no-issues"
