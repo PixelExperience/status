@@ -16,16 +16,9 @@ layout: default
     <div class="container">
         {% for tracking in site.data.tracker %}
         <div class="service-card">
-            <!--div class="service-header">
+            <div class="service-header">
                 <h3>{{ tracking.group }}</h3>
-                {% if status[tracking.group].group-status == 'operational' %}
-                <span class="status is-good">operational</span>
-                {% elsif status[tracking.group].group-status == 'partial' %}
-                <span class="status is-ok">partial outage</span>
-                {% elsif status[tracking.group].group-status == 'major' %}
-                <span class="status is-bad">major outage</span>
-                {% endif %}
-        </div-->
+            </div>
             <ul>
                 {% for site in tracking.sites %}
                 {%- assign state = status[tracking.group].sites[site.name] -%}
