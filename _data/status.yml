@@ -1,19 +1,13 @@
-Build Servers:
-  group-status: operational
-  sites:
-    Build Server 01: operational
-Development:
-  group-status: major
-  sites:
-    Gerrit: major
-    Gitlab: operational
-    Release CP: operational
-Websites:
-  group-status: operational
+Services:
+  group-status: partial
   sites:
     API: operational
     Blog: operational
+    Build Server: operational
     Download Portal: operational
+    Gerrit: partial
+    Gitlab: operational
+    Release CP: operational
     Wiki: operational
 statement: Some services are unavailable
 status-class: critical
