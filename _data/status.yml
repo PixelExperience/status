@@ -1,12 +1,12 @@
 Services:
-  group-status: partial
+  group-status: major
   sites:
     API: operational
-    Blog: partial
+    Blog: major
     Build Server: operational
     Download Portal: operational
     Gerrit: operational
-    Gitlab: partial
+    Gitlab: major
     Release CP: operational
     Wiki: operational
 statement: Some services are unavailable
