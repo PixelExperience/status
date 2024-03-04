@@ -1,13 +1,13 @@
 Services:
-  group-status: operational
+  group-status: partial
   sites:
     API: operational
     Blog: operational
     Build Server: operational
     Download Portal: operational
-    Gerrit: operational
+    Gerrit: partial
     Gitlab: operational
     Release CP: operational
     Wiki: operational
-statement: All systems are operational
-status-class: no-issues
+statement: Some services are unavailable
+status-class: partial
